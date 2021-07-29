@@ -1,1 +1,1 @@
-Practice using HTML/CSS to recreate Google's homepage.
+Just some practice using HTML/CSS to recreate Google's homepage. 
