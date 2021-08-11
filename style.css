@@ -28,7 +28,7 @@ ul {
 body {
 
     display: grid;
-    grid-template-rows: 7vh 1fr 4vh;
+    grid-template-rows: 7vh 1fr 5vh;
     width: 100vw;
     height: 100vh;
     overflow: hidden;
@@ -47,7 +47,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 100vw;
-    height: 4vh;
+    height: 5vh;
     grid-column-end: 5 / span 1;
     background-color: #f2f2f2;
    
@@ -60,6 +60,7 @@ footer {
     grid-column-start: 1 / 2;
     justify-content: flex-start;
     align-items: center;
+    margin-left: 15px;
 
 
 }
@@ -71,6 +72,7 @@ footer {
     align-items: center;
     padding-right: 25px;
     vertical-align: middle;
+    margin-right: 15px;
    
 
 
@@ -113,9 +115,9 @@ footer {
 .searchArea {
 
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    align-self: start;
+    justify-self: center;
     grid-area: 3 / 2;
     border: 1px solid black;
     flex-direction: column;
@@ -154,28 +156,30 @@ footer {
 
 }
 
-.searchButtons {
 
-    display: flex;
-    grid-template-columns: 1fr 20px 1fr;
-    grid-area: 3 / 2;
-    align-self: end;
+.searchButtons {
     
+    display: flex;
+    grid-area: 3 / 2;
+    align-items: center;
+    justify-content: center;
 
 
 }
 
-.searchButtons input {
+.searchButtons button {
 
     align-items: center;
     justify-content: center;
-    margin: 30px auto;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
     background-color: #f2f2f2;
     border: 1px solid #f2f2f2;
     border-radius: 4px;
     color: #5F6368;
     font-size: 14px;
-    height: 30px;
 }
 
 /* comment */
